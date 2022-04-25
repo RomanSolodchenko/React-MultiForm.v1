@@ -1,18 +1,9 @@
-import './App.css';
-import Stepone from './components/StepOne';
-import Steptwo from './components/StepTwo';
-import Finalstep from './components/FinalStep';
+import React from 'react';
 
-
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <div>
       
-    
-
-
-
     </div>
   );
 }
