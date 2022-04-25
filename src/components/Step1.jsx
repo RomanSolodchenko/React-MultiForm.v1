@@ -7,7 +7,7 @@ const { data, handleChange, next } = props;
   return (
     <form >
       <p>
-        <label htmlFor="name">Имя</label>
+        <label htmlFor="name">Name</label>
         <input type="text" 
         name="name"
         value={data.name} 
@@ -16,7 +16,7 @@ const { data, handleChange, next } = props;
       </p>
 
       <p>
-        <label htmlFor="lastname">Фамилия</label>
+        <label htmlFor="lastname">Lastname</label>
         <input type="text" 
         name="lastname"
         value={data.lastname} 

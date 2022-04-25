@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Step2 = () => {
+const Step2 = (props) => {
 
   const { data, handleChange, next, back } = props;
 
@@ -24,7 +24,7 @@ const Step2 = () => {
       onChange={handleChange}
       />
     </p>
-
+    <button onClick={back}>Back</button>
     <button onClick={next}>Next</button>
   </form>
     
