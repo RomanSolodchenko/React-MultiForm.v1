@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Step4 = () => {
+const Multistepform = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const Step4 = () => {
     );
 }
 
-export default Step4;
+export default Multistepform;
